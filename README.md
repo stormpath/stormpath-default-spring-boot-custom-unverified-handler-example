@@ -8,6 +8,8 @@ Account being unverified.
 
 The example demonstrates custom messages both on the `login` view and on the `forgot` view.
 
+**NOTE:** This is for demonstration purposes. It is untested and will *only* work in Spring Security, Spring Boot WebMvc environments.
+
 ### Custom Password Reset Validation
 
 This example demonstrates how you can override the default validation behavior in Stormpath's standard Forgot Password Controller.
