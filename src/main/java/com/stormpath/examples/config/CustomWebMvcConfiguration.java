@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.mvc.Controller;
 
 @Configuration
-public class CustomForgotPasswordControllerConfig extends AbstractStormpathWebMvcConfiguration {
+public class CustomWebMvcConfiguration extends AbstractStormpathWebMvcConfiguration {
 
     @Bean
     public Controller stormpathForgotPasswordController() {
