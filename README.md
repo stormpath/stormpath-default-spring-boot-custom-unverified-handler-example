@@ -76,7 +76,7 @@ authentication.
 
 To exercise the functionality in this example app, click the `Create Account` link on the login page. A verification email will be sent when you register.
 
-From the login page, you can attempt to login and you'll get the message `Please verify your account before attempting to reset the password.`
+From the login page, you can attempt to login and you'll get the message `Please verify your account before attempting to login.`
 
 From the login page, you can click the `Forgot Password?` link. When you enter the email address and click the "Send Email" button, you'll get the message:
 `Please verify your account before attempting to reset the password.`

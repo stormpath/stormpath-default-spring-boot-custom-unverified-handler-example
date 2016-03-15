@@ -15,7 +15,7 @@ public class CustomSpringSecurityLoginErrorModelFactory extends SpringSecurityLo
 
         String query = Strings.clean(request.getQueryString());
         if (query != null && query.contains("unverified")) {
-            return Collections.singletonList("Please verify your account before attempting to reset the password.");
+            return Collections.singletonList("Please verify your account before attempting to login.");
         }
 
         return super.toErrors(request, form, exception);
